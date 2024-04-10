@@ -8,6 +8,11 @@ html,body{
     width: 100%;
     height: 100%;
 }
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
 
 .login{
     width: 100%;
@@ -440,8 +445,578 @@ html,body{
 }
 /* =======================media=========================== */
 
+@media screen and (max-width:768px) {
 
-@media (max-width:600px) {
+    .login-right h3{
+        margin-top: -39px;
+        text-align: end;
+    }
+    
+    .login-right span{
+        text-align: end;
+        color: blueviolet;
+    }
+    .login-right h1{
+      margin-top: 57px;
+      margin-left: 90px;
+      font-size:25px;
+      letter-spacing: 2px;
+       
+    }
+    .login-right p{
+        margin-top: 8px;
+        margin-left: 110px;
+        color: rgb(203, 45, 150);
+         
+    }
+    .form input{
+        border: 1px solid gray;
+        margin-left: 16%;
+        height: 36px;
+        border-radius: 30px;
+        width: 36%;
+       /* text-align: center; */
+       /* align-items: flex-start; */
+    }
+    .upload svg {
+        /* background-color: yellow; */
+        margin-left: 14px;
+        margin-top: 25px;
+        height: 32px;
+        width: 16%;
+        color: palevioletred;
+    }
+    .add button{
+        margin-left: 60px;
+    
+        margin-top:60px ;
+        font-size: 20px;
+        width: 60%;
+        background-color: white;
+        color: black;
+    }
+    .add p{
+        font-size:20px ;
+        margin-left:60px;
+        color: gray;
+    }
+    .b-2 {
+        width: 10%;
+        height: 18vh;
+    
+       
+    }
+
+    .select svg {
+        /* background-color: yellow; */
+        margin-left: 18px;
+        margin-top: 25px;
+        height: 32px;
+        width: 16%;
+        color: palevioletred;
+    }
+
+    .select h1{
+        margin-top: 40px;
+        margin-left: 25%;
+        padding-bottom: 10px;
+    
+    }
+    .select p{
+        font: 20px;
+        margin-left: 16%;
+        color: gray;
+    }
+    .upload h1{
+        margin-top: 80px;
+        margin-left: 20%;
+        padding-bottom: 20px;
+    }
+    .upload p{
+        margin-left: 30%;
+        color: gray;
+    }
+    .location h1{
+        margin-left: 30%;
+    }
+    .child5 h1{
+        margin-left: 15%;
+    }
+    .margin li {
+        list-style-type: none;
+        padding: 5px 6px;
+    }
+    .margin li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: gray;
+        
+        
+    }
+    .svg{
+        margin-right: 2%;
+    }
+}
+/* ------------------------------------media-------------------------- */
+@media screen and (max-width:426px) {
+    .move-left h3{
+        /* margin-top: -39px; */
+        text-align: end;
+        font-size: 15px;
+    }
+    
+    .login-right span{
+        font-size: 11px;
+        text-align: end;
+        color: blueviolet;
+    }
+    .login-right svg {
+        /* background-color: yellow; */
+        margin-top: -2px;
+        height: 37px;
+        width: 19%;
+        color: palevioletred;
+    }
+    .login-right h1{
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size:15px;
+        letter-spacing: 2px;
+         
+      }
+      .login-right p{
+          margin-top: 8px;
+          margin-left: 45px;
+          color: rgb(203, 45, 150);
+           
+      }
+      .form{
+          margin-top: -60px;
+          margin-left: -7%;
+          /* padding: 0px 2px; */
+          
+      }
+      .form h1{
+          margin-top: 59px;
+         
+      }
+      .form input{
+          border: 1px solid gray;
+          margin-left: 13%;
+          height: 36px;
+          border-radius: 30px;
+          width: 50%;
+         /* text-align: center; */
+         /* align-items: flex-start; */
+      }
+      .checkbox{
+          margin-top: 19px;
+          margin-left: 7%;
+          font-size: 11px;
+      }
+       .login button{
+          background-color: rgb(210, 86, 162);
+          color: white;
+          padding: 12px;
+          margin-top: 12px;
+          margin-left: 21%;
+          border-radius: 20px;
+          width: 28%;
+      }
+      .login-right h4{
+          margin-top: 20px;
+          font-size: 11px;
+          margin-left: 6%;
+          color: rgb(83, 81, 81);
+      }
+      .upload p{
+        font-size:15px ;
+        margin-left:40px;
+        color: gray;
+    }
+    .avtar{
+        display: flex;
+        margin-left: 20%;
+        gap: 18vw;
+    }
+    .b-1 button{
+        height: 116%;
+        width: 410%;
+        border-radius: 50%;
+        background-color: white;
+        /* background-color: #423E35; */
+        margin-left: 30%;
+        border: 2px solid black;
+    
+        /* height: 120%;
+        width: 293%;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: 30%; */
+    }
+    .add button{
+    
+        margin-top:30px ;
+        font-size: 16px;
+        width: 50%;
+        background-color: white;
+        color: black;
+    }
+    .add p{
+        font-size:12px ;
+        margin-left:30px;
+        color: gray;
+    }
+    .b-2 {
+        width: 13%;
+        height: 18vh;
+    
+       
+    }
+    .location h1{
+        margin-left: 20%;
+    }
+    .select h1{
+        margin-top: 20px;
+        margin-left: 15%;
+        padding-bottom: 10px;
+        font-size: 23px;
+    
+    }
+    .select p{
+        font: 20px;
+        margin-left: 10%;
+        color: gray;
+    }
+    .parent{
+        margin: 30px;
+        margin-left: 10%;
+        width: 80%;
+        height: 45%;
+        display: flex;
+        gap: 3vw;
+        /* background-color: red; */
+    }
+    .parent img{
+        width: 80%;
+        object-fit: cover;
+    }
+    .child1{
+        
+        width: 30%;
+        height: 100%;
+        border: 1px solid #423E35;
+        /* background-color: rebeccapurple; */
+    }
+    .child2{
+        width: 30%;
+        height: 100%;
+        border: 1px solid #423E35;
+        /* background-color: rgb(196, 187, 204); */
+    }
+    .child3{
+        width: 30%;
+        height: 100%;
+        border: 1px solid #423E35;
+        /* background-color: rgb(3, 2, 4); */
+    
+    }
+    .child3 h3{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    
+    .child4 button{
+        padding-top: 2vw;
+        margin-left: 42%;
+        /* padding: 1px; */
+        width: 15%;
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 4%;
+        color: white;
+        background-color: #f5a4da;
+       
+    }
+   
+    .child5 button{
+        padding-top: 2vw;
+        margin-left: 42%;
+        /* padding: 1px; */
+        width: 15%;
+        padding: 14px;
+        font-size: 17px;
+        border-radius: 4%;
+        color: white;
+        background-color: #eb62bd;
+       
+    }
+    .navbar{
+        margin-top: 2vw;
+        width: 100%;
+        height: 100px;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 11px;
+        
+    }
+    .navbar-left{
+        display: flex;
+        gap: 1vw;
+        list-style-type: none;
+       
+        /* text-transform: uppercase; */
+    }
+    .margin{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2vw;
+        
+    }
+    .margin li {
+        list-style-type: none;
+        padding: 2.7px 3px;
+    }
+    .margin li a{
+        text-decoration: none;
+        font-size: 13px;
+        color: gray;
+        
+        
+    }
+    .margin h6{
+        font-size: 12px;
+    }
+    .icon img{
+        margin-top: 1vw;
+        padding: 0px 2px;
+    }
+    .copy-right{
+        display: flex;
+        gap: 4vw;
+        
+        
+    }
+    .copy-right p{
+        font-weight: 700;
+    }
+    .copy-right h1{
+        font-size: 12px;
+        font-weight: 70;
+    }
+    
+    .copy-right img{
+        margin-right: 12%;
+
+    }
+    
+    
+}
+
+@media screen and (max-width:376px) {
+    .footer{
+        margin-top: 6px;
+    }
+    .margin li {
+        list-style-type: none;
+        padding: 2px 2.7px;
+    }
+    .margin li a{
+        text-decoration: none;
+        font-size: 11px;
+        color: gray;
+        
+        
+    }
+    .margin h6{
+        font-size: 12px;
+    }
+    .copy-right{
+        display: flex;
+        gap: 3vw;
+        
+        
+    }
+    .copy-right p{
+        font-weight: 700;
+    }
+    .copy-right h1{
+        font-size: 10px;
+        font-weight: 70;
+    }
+    
+    .copy-right img{
+        margin-right: 18px;
+
+    }
+}
+@media screen and (max-width:321px) {
+    .footer{
+        margin-top: 24px;
+    }
+    .move{
+        margin-top: 3vw;
+        text-align: center;
+    }
+    .move p{
+        margin-top: 1.8vw;
+        font-size: 15px;
+        color: gray;
+    }
+    .move span{
+        color: #eb62bd;
+    }
+    
+    .move h5{
+        margin-top: 1vw;
+        font-size: 20px;
+    }
+    .child5 button{
+        padding-top: 2vw;
+        margin-left: 42%;
+        /* padding: 1px; */
+        width: 19%;
+        padding: 14px;
+        font-size: 17px;
+        border-radius: 4%;
+        color: white;
+        background-color: #eb62bd;
+       
+    }
+    .child4 button{
+        padding-top: 2vw;
+        margin-left: 42%;
+        /* padding: 1px; */
+        width: 19%;
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 4%;
+        color: white;
+        background-color: #f5a4da;
+       
+    }
+    .child3 h3{
+        text-align: center;
+        margin-top: 4px;
+        font-size: 16px;
+    }
+    .child1 h2{
+        font-size: 16px;
+    }
+    .child2 h2{
+        font-size: 16px;
+    }
+    .parent{
+        margin: 30px;
+        margin-left: 10%;
+        width: 80%;
+        height: 40%;
+        display: flex;
+        gap: 3vw;
+        /* background-color: red; */
+    }
+    .child3-1 h3{
+        text-align: center;
+        margin-top: 4px;
+        font-size: 16px;
+    }
+    .select h1{
+        margin-top: 27px;
+        margin-left: 15%;
+        padding-bottom: 10px;
+        font-size: 23px;
+    
+    }
+    .select svg{
+        margin-top: 80px;
+    }
+    .b-1 button{
+        height: 110%;
+        width: 370%;
+        border-radius: 50%;
+        background-color: white;
+        /* background-color: #423E35; */
+        margin-left: 10%;
+        border: 2px solid black;
+    
+        /* height: 120%;
+        width: 293%;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: 30%; */
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:600px) {
     body{
         min-height: 100vh;
         width: 100vw;
@@ -488,14 +1063,12 @@ html,body{
         height: 36px;
         border-radius: 30px;
         width: 46%;
-       /* text-align: center; */
-       /* align-items: flex-start; */
     }
     .move-left{
         margin-left: -50px;
     }
     .login-right svg {
-        /* background-color: yellow; */
+     
         margin-left: 60px;
         margin-top: 12px;
         height: 32px;
@@ -504,7 +1077,7 @@ html,body{
     }
 
     .upload svg {
-        /* background-color: yellow; */
+       
         margin-left: 10px;
         margin-top: 25px;
         height: 32px;
@@ -539,7 +1112,7 @@ html,body{
     .login-left img{
         width: 100%;
         height: 100%;
-        /* border: 3px solid rgb(12, 12, 11); */
+        
     }
     .b-2 {
         width: 15%;
@@ -562,7 +1135,7 @@ html,body{
     height: 30%;
     display: flex;
     gap: 3vw;
-    /* background-color: red; */
+  
 }
 .parent img{
     width: 80%;
@@ -573,19 +1146,19 @@ html,body{
     width: 30%;
     height: 100%;
     border: 1px solid #423E35;
-    /* background-color: rebeccapurple; */
+  
 }
 .child2{
     width: 30%;
     height: 100%;
     border: 1px solid #423E35;
-    /* background-color: rgb(196, 187, 204); */
+  
 }
 .child3{
     width: 30%;
     height: 100%;
     border: 1px solid #423E35;
-    /* background-color: rgb(3, 2, 4); */
+
 
 }
 .child3 h3{
@@ -600,7 +1173,7 @@ html,body{
     height: 29px;
 }
 .select svg {
-    /* background-color: yellow; */
+  
     margin-left: -1px;
     margin-top: 5px;
     height: 32px;
@@ -614,11 +1187,11 @@ html,body{
     margin-top: 2vw;
     width: 100%;
     height: 100px;
-    /* background-color: brown; */
+  
     display: flex;
     gap: 4vw;
     /* align-items: center;
-    justify-content: space-between; */
+   
     font-size: 11px;
     
 }
@@ -628,7 +1201,7 @@ html,body{
 .text{
     width: 100%;
     height: 60vh;
-    /* background-color: orangered; */
+   
 }
 .margin h6{
     font-size: 16px;
@@ -667,4 +1240,4 @@ html,body{
     margin-right: 40px;
 }
 
-}
+} */
